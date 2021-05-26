@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Helpers in this spot"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:background="#ffffff">
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            app:srcCompat="@drawable/a" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Park"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="age: 49"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rating: 4.9"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+</LinearLayout>

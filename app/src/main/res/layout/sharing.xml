@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First list"
+            android:textColor="@color/black"
+            android:textSize="40dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Share this path with your friends"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/imageButton_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            app:srcCompat="@android:drawable/ic_menu_share"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created on 21/02/15" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/textView200"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Jeju Airport"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/textView210"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:layout_marginStart="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Young Du Am"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/textVie2w21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:layout_marginStart="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/textdView20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Dong Moon Market"
+            android:layout_marginStart="10dp"
+
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Grand Hyatt Jeju"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
