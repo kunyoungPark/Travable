@@ -61,7 +61,8 @@
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:text="24 hours" />
     </LinearLayout>
 
@@ -148,8 +149,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="First path"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="First path"/>
 
         <CheckBox
             android:id="@+id/checkBox2"
