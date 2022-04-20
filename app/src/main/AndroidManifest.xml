@@ -19,7 +19,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Travable" >
 
-        <activity android:name=".CardGame">
+        <activity android:name=".Data1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -33,6 +33,12 @@
         </activity>
 
         <activity android:name=".Test">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Data2">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
