@@ -10,12 +10,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Data2 extends AppCompatActivity {
 
+    private TextView tv;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.data2);
 
         TextView tv = findViewById(R.id.getBtnName);
+        int i = 3;
+        String a = "ㅇ";
+
         tv.setText(getIntent().getStringExtra("name"));
 
         TextView tvColor = findViewById(R.id.setColor);

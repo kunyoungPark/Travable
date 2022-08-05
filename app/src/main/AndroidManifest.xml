@@ -17,9 +17,9 @@
         android:roundIcon="@drawable/logo4"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Travable" >
+        android:theme="@style/Theme.Travable">
 
-        <activity android:name=".Data1">
+        <activity android:name=".Email">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -45,7 +45,6 @@
         </activity>
 
     </application>
-
 
 
 </manifest>
